@@ -1,0 +1,45 @@
+body,html{
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	height: 100%;
+	/*This is the trick to apll Background Image Visit "CSS full page background"*/
+	background: url(https://i.redd.it/yai69wg3bdt41.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+	background-color: #23FA02;
+	color: black;
+	font-weight: bold;
+	border:2px solid black;
+}
+.btn{
+	border-radius: 250px; /*You can use the main class or the subordinate class but here I am using the main class as in the video */
+	
+	text-transform: uppercase;/*It transdorms the letters into uppercase*/
+}
+
+.buffer{
+	height: 20rem;
+}
+
+.btn-primary:hover{/*Basically it states that when we will hover you have to make the following changes*/
+	background-color: #8DEA7E;
+	border-color: black;
+	border-width: 4px;
+	
+}
+
+h1{
+	color: white;
+}
+
+hr{
+	border: 3px solid #23FA02;
+	max-width: 65px;
+
+
+}
